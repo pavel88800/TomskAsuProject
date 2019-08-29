@@ -10,7 +10,6 @@ namespace WebApiApplication
     {
         public AppDatabaseContext(DbContextOptions<AppDatabaseContext> options):base(options) {
         }
-        public DbSet<User> Users { get; set; }
         public DbSet<Person> Persons { get; set; }
         public DbSet<Skill> Skills { get; set; }
     }
